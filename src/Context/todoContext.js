@@ -1,5 +1,6 @@
 import React, { createContext, useContext } from "react";
 export const todoContext = createContext({
+  // todos array 
   todos: [
     {
       id: 1,
