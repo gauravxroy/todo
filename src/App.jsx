@@ -14,12 +14,6 @@ function App() {
       prev.map((prevTodo) => (prevTodo.id === id ? todo : prevTodo))
     );
 
-    //same as above
-    // setTodos((prev) =>
-    //   prev.map((ele) => {
-    //     ele.id === id ? todos : prev;
-    //   })
-    // );
   };
 
   const deleteTodo = (id) => {
